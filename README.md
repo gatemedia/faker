@@ -56,6 +56,9 @@ Faker::Address.state #=> "California"
 
 Faker::Address.country #=> "French Guiana"
 
+# 2-letter ISO country code
+Faker::Address.country_code #=> "US"
+
 Faker::Address.latitude #=> "-58.17256227443719"
 
 Faker::Address.longitude #=> "-156.65548382095133"
